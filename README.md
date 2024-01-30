@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Archie Studio
+
+## About the Project
+
+Archie Studio is a website created as part of an assessment for Lapomps. The project showcases modern web technologies, interactive design, and features smooth scroll and parallax effects using Locomotive Scroll. The text animations are implemented with GSAP (GreenSock Animation Platform). The application is designed to fulfill the requirements of the assessment and highlights the integration of these technologies to create a visually appealing and engaging user experience.
+
+Please note that while the current version of the project demonstrates the use of smooth scroll, parallax effects, and text animations, certain functionalities may be limited or non-operational as the focus is primarily on fulfilling the assessment criteria.
+
+## Technologies Used
+
+This project is built using various modern tools and technologies, including:
+
+- Next.js
+- React
+- Locomotive Scroll
+- GSAP (GreenSock Animation Platform)
+- Tailwind CSS
+- clsx (for dynamic CSS classes)
+- Dependencies for development tools like ESLint, PostCSS, and Autoprefixer
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Before cloning the project, ensure you have `npm` installed on your system.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
 
-## Learn More
+   ```bash
+   git clone https://github.com/artaatmaja/archie-studio-lapomps.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Change to the project directory:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd archie-studio-lapomps
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Install NPM packages:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This will run the app in the development mode. Open http://localhost:3000 to view it in the browser.
